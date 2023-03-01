@@ -24,7 +24,7 @@
 
 .nav-head .nav-items {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 30%;
     margin-right: 6rem;
@@ -57,6 +57,7 @@
     font-size: 1.75rem;
     color: white;
     text-align: center;
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -83,6 +84,7 @@
 
 .products .product-info {
     text-align: center;
+    margin: 1.5rem;
 }
 
 .products .product-info p {
@@ -105,7 +107,15 @@
     color: white;
 }
 
+.blur {
+    filter: blur(2px);
+}
 
+select {
+    width: 10rem;
+    height: 2rem;
+    
+}
 /*==============================================>Footer<=====================================================*/
 
 #footer-div {
@@ -166,6 +176,10 @@
     background-color: rgb(83, 83, 83);
 }
 
+.fa-location-dot {
+    background-color: rgb(83, 83, 83);
+    color: red;
+}
 
 @media only screen and (max-width : 700px)  /*============================>Mobile View<=============================*/
 {
@@ -175,6 +189,7 @@
 
     .nav-head .nav-items {
         display: none;
+       
     }
 
     .nav-head .nav-itemsactive {
@@ -182,7 +197,7 @@
         position: absolute;
         margin-top: 5rem;
         width: 100%;
-       
+        height: 5rem;
         
     }
 
